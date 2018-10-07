@@ -124,12 +124,8 @@ figcaption {
   position: absolute;
   margin: 100px auto;
   text-align: center;
-}
-
-figcaption p {
   font-family: Arial-Narrow, sans-serif;
   font-size: 35px;
-  
 }
 
 .presentation {
