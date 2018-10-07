@@ -205,8 +205,27 @@ section p {
 }
 .contacts {
   background-color: black;
+  border-radius: 0 0 30px 30px;
 }
 
-.footer {
+footer h3 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+footer ul {
+  margin-bottom: 0;
+  text-align: center;
   
+}
+
+footer li {
+  color:white;
+  padding-bottom: 30px;
+  display:inline-block;
+}
+
+.fa {
+  margin-right: 10px;
 }
