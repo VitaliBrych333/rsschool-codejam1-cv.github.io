@@ -1,7 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
+  text-decoration: none;
+  font-family: Arial-Regular, sans-serif;
 }
 
 @font-face {
@@ -21,6 +22,9 @@ body {
   /* display: flex; */
   /* flex-direction: column; */
   user-select: none;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 30px;
+  
 }
 
 header {
@@ -31,6 +35,14 @@ header {
  
 }
 
+header a {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+main {
+  padding: 10px;
+}
 .logo {
   position: relative;
   display: inline-block;
@@ -54,7 +66,7 @@ ul {
   margin: 50px 35px;
 } 
 
-li {
+ul li {
   position: relative;
 	display: inline;
   padding-right: 20px;
@@ -69,8 +81,8 @@ nav a {
   color: #26ad26;  
 }
 h1 {
-  font-family: Arial-Regular, sans-serif;
-  font-size: 52px;
+  /* font-family: Arial-Regular, sans-serif; */
+ 
    
   text-transform: uppercase;
   margin: 40px auto;
@@ -81,6 +93,7 @@ h1 {
 
 h1 a {
   color: #26ad26; 
+  font-size: 52px;
 }
 
 h1 a:hover {
@@ -90,13 +103,14 @@ h1 a:hover {
 
 .about {
   height: 400px;
-  display: block;
-  display: inline;
+ 
+  
 }
 
 h2, h3 {
   text-align: center;
   margin: 20px; 
+  /* font-family: Arial-Regular, sans-serif; */
 }
 
 h2 {
@@ -111,15 +125,88 @@ h2 {
   margin: 30px;
 }
 
-.details {
+figcaption {
   display: inline-block;
   position: absolute;
   margin: 100px auto;
   text-align: center;
 }
 
-.details p {
+figcaption p {
   font-family: Arial-Narrow, sans-serif;
   font-size: 35px;
+  
+}
+
+.presentation {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.presentation p {
+  /* font-family: Arial-Regular, sans-serif; */
+  color: #6b854ad3;
+  font-size: 25px;
+}
+
+.technologies img {
+  width: 100px;
+  height: 100px;
+  margin: 15px 20px;
+}
+
+.technologies {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: #1fa03f;
+  margin: 50px auto;
+}
+
+section p {
+  text-align: center;
+  font-size: 25px;
+  color: #2e302cd3;
+}
+
+
+.examples h3+a {
+  color: rgb(245, 225, 45);
+  font-size: 20px;
+  margin: 50px auto;  
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+.examples h3+a:hover {
+  color:rgb(189, 192, 26);
+}
+
+.attainments h3 {
+  margin: 10px auto 20px;
+}
+
+.english img {
+  width: 270px;
+  height: 62px;
+  margin:20px auto;
+  display: block;
+}
+
+.education li {
+  font-size: 20px;
+  color: #2e302cd3;
+ 
+}
+.education {
+  text-align: center;
+}
+.contacts {
+  background-color: black;
+}
+
+.footer {
   
 }
