@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+  font-family: Arial-Regular, Tahoma, sans-serif;
+}
+
+@font-face {
+  font-family: Arial-Narrow; 
+  src: url(../fonts/ArialNarrow.ttf); 
+}
+
+@font-face {
+  font-family: Arial-Regular; 
+  src: url(../fonts/ArialRegular.ttf); 
+}   
+
+body {
+  max-width: 1024px;
+	margin:0 auto; 
+  text-align:left;
+  user-select: none;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 30px;  
+}
+
+header {
+  height: 400px;
+  background-image: url(../img/header-fone.png);
+  background-size: 1024px auto;
+  border-radius: 30px 30px 0 0; 
+}
+
+header a {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+main {
+  padding: 10px;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  width: 70px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  position: absolute;
+  display: inline-block;  
+  font-size: 19px;  
+}
+
+ul {
+  margin: 50px 35px;
+} 
+
+ul li {
+  position: relative;
+	display: inline;
+  padding-right: 20px;  
+}
+
+nav a:hover {
+	color: #e7791f;
+}
+
+nav a {
+  color: #26ad26;  
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 40px auto;
+  width: 400px;  
+  text-align: center;
+  border: 7px solid  #74b91a;
+}
+
+h1 a {
+  color: #26ad26; 
+  font-size: 52px;
+}
+
+h1 a:hover {
+  color: #e7791f;
+  cursor: pointer;
+}
+
+.about {
+  height: 400px;  
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 20px; 
+}
+
+h2 {
+  font-size: 40px;
+  color: #74b91a;
+}
+
+.about img {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 50%;  
+}
+
+.about p {
+  position: absolute;
+  display: inline-block;  
+  margin: 100px auto;
+  font-family: Arial-Narrow, Tahoma, sans-serif;
+  font-size: 35px;
+}
+
+.presentation {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.presentation p {
+  color: #6b854ad3;
+  font-size: 25px;
+}
+
+.technologies img {
+  width: 100px;
+  height: 100px;
+  margin: 15px 20px;
+}
+
+.technologies {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: #1fa03f;
+  margin: 50px auto;
+}
+
+section p {
+  text-align: center;
+  font-size: 25px;
+  color: #2e302cd3;
+}
+
+.examples h3 + a {
+  display: block;  
+  margin: 50px auto;  
+  text-align: center;
+  color: rgb(245, 225, 45);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.examples h3 + a:hover {
+  color:rgb(189, 192, 26);
+}
+
+.attainments h3 {
+  margin: 10px auto 20px;
+}
+
+.english img {
+  display: block;
+  width: 270px;
+  height: 62px;
+  margin:20px auto;  
+}
+
+.education li {
+  font-size: 20px;
+  color: #2e302cd3; 
+}
+
+.education {
+  text-align: center;
+}
+
+.contacts {
+  background-color: black;
+  border-radius: 0 0 30px 30px;
+}
+
+footer h3 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  margin-bottom: 0;
+  text-align: center;  
+}
+
+footer li {
+  display:inline-block;  
+  padding-bottom: 30px; 
+  color:white;
+}
+
+.fa {
+  margin-right: 10px;
+}
